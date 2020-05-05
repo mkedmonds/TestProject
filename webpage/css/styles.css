@@ -4,10 +4,7 @@ body{
   margin: 0px;
 }
 
-.header{
-  width: 100%;
-  background-color: #590D0D;
-}
+
 .head{
   width: 960px;
   background-color: brown;
@@ -37,8 +34,6 @@ img {
   margin: auto auto;
 }
 .footer{
-  width: 100%;
-  background-color: #590D0D;
   font-size: 20px;
   text-align: center;
 }
@@ -60,6 +55,10 @@ h4{
 @media only screen and (max-width: 700px) {
   body {
     background-color: lightblue;
+  }
+
+  .head, .foot {
+    width: 100%;
   }
 
   h1{
