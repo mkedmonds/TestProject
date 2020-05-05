@@ -8,6 +8,7 @@ body{
 .head{
   width: 960px;
   background-color: brown;
+  font-family: 'Lobster', cursive;
   padding: 10px;
   margin: auto auto;
 }
@@ -21,10 +22,26 @@ img {
   width: 150px;
 }
 
+nav{
+  display: flex;
+  width: 960px;
+  background-color: #8A4F4F;
+  justify-content: space-around;
+  padding: 10px;
+  margin: auto auto;
+}
+
+nav div {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+}
+
 #container{
   width: 960px;
   background-color: white;
   margin: auto auto;
+  font-family: 'Lato', sans-serif;
   padding: 10px;
 }
 .foot{
@@ -35,6 +52,7 @@ img {
 }
 .footer{
   font-size: 20px;
+  font-family: 'Lobster', cursive;
   text-align: center;
 }
 
@@ -50,15 +68,17 @@ h4{
   font-size: 25px;
   margin-top: 10px;
   margin-bottom: 10px;
+  font-family: 'Abril Fatface', cursive;
 }
 
 @media only screen and (max-width: 700px) {
   body {
-    background-color: lightblue;
+    background-color: #590D0D;
   }
 
   .head, .foot {
     width: 100%;
+    padding: 10px 15px 10px 5px;
   }
 
   h1{
@@ -67,9 +87,23 @@ h4{
   h2{
     font-size: 20px;
   }
+  h4{
+    margin: 0px 0px 10px 0px;
+  }
+
+  nav{
+    width: 100%;
+  }
 
   #container{
     width: 100%;
-    padding: 20px;
+    padding: 10px;
   }
+
+  #container div {
+    margin-bottom: 10px;
+  }
+
+  
+
 }
